@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+[type="search"]:focus {
+  --tw-ring-color: none;
+}
+[type="text"] {
+  padding: 4px 11px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 6px;
+}
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-btn-default:not(
+    :disabled
+  ):hover {
+  background: #f2f3f5;
+  border-color: #d0d3d6;
+  color: #1f2329;
+}
+.selectionStatus {
+  border-color: #3370ff !important;
+  color: #3370ff !important;
+}
+.adm-form-item-child-inner {
+  text-align: right;
+}
+
+.customModal {
+  padding-bottom: 0;
+}
+.customModal .ant-modal-content {
+  max-height: calc(100vh - 80px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 20px 24px;
+}
+.customModal .ant-modal-body {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.customModal .ant-modal-footer {
+  padding-right: 24px;
+}
+.preImg .ant-drawer-body {
+  padding: 0;
+}
+/* 修改班次表格 tabel的样式 tabel */
+.arrange .ant-table-wrapper .ant-table-thead > tr > th {
+  padding: 0;
+}
+.arrange .ant-table-wrapper .ant-table-tbody > tr > td {
+  padding: 0;
+}
+.arrangeTable
+  .ant-table-wrapper
+  .ant-table-tbody
+  > tr.ant-table-row:hover
+  > td {
+  background: #fff !important;
+}
+
+.arrangeTable .ant-table-wrapper .ant-table-thead > tr > th {
+  background: #fff;
+}
+.dateComponent .ant-picker {
+  width: 90px;
+}
+
+.attendanceMap .ant-steps.ant-steps-label-vertical .ant-steps-item-content {
+  width: 126px;
+}
+
+[type="text"]:focus {
+  box-shadow: none;
+}
+
+body {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.ant-layout-header {
+  background-color: #ffffff !important;
+}
